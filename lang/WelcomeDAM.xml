@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<languages>
+    <language name="English" id="en">
+        <welcome>
+            <components>
+                <welcomedam>
+                    <title>WelcomeDAM</title>
+                </welcomedam>
+            </components>
+        </welcome>
+    </language>
+</languages>
