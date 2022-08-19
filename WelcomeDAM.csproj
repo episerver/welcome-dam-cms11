@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Configurations>Debug;Release</Configurations>
+        <Platforms>AnyCPU</Platforms>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <LangVersion>7.1</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Views" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="ClientResources\**" Pack="false">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        </Content>
+        <None Include="README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="$(OutputPath)\WelcomeDAM.zip" Pack="true" PackagePath="contentFiles\any\any\modules\_protected\WelcomeDAM\WelcomeDAM.zip" PackageCopyToOutput="true" />
+        <None Include="WelcomeDAM.targets" Pack="true" PackagePath="build\net5.0" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" PackageCopyToOutput="true" />
+    </ItemGroup>
+    <ItemGroup>
+      <Reference Include="System.Net.Http" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="EPiServer.CMS" Version="11.15.1" />
+    </ItemGroup>
+    <Target Name="ZipOutputPath" BeforeTargets="Build">
+        <ZipDirectory SourceDirectory="$(OutputPath)\ClientResources\WelcomeDAM" DestinationFile="$(OutputPath)\WelcomeDAM.zip" Overwrite="true" />
+    </Target>
+</Project>

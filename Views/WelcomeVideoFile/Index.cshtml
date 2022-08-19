@@ -1,0 +1,13 @@
+﻿@model WelcomeDAM.Models.WelcomeVideoFile
+
+@if (Model != null)
+{
+    <video width="100%" controls>
+        <source src="@Model.Url" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    @if (!string.IsNullOrWhiteSpace(Model.Description))
+    {
+        <small>@Model.Description</small>
+    }
+}
