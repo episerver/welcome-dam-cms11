@@ -1,18 +1,7 @@
-## appsettings.json
+## AppSettings
 ```
-"EPiServer": {
-    "Welcome": {
-        "Api": {
-            "ClientId": "xxxx-xxxx-xxxx-xxxx-xxxx",
-            "ClientSecret" : "xxxxxxxxxx"
-        }
-    }
-}
-```
-
-## Startup.cs
-```
-services.AddWelcome()
+    <add key="Welcome:Api:ClientId" value="client-id-goes-here" />
+    <add key="Welcome:Api:ClientSecret" value="client-secret-goes-here" />
 ```
 
 ## JumbotronBlock.cshtml
