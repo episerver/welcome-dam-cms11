@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Optimizely.Labs.WelcomeDAM</id>
+    <version>0.0.1</version>
+    <title>Optimizely.Labs.WelcomeDAM</title>
+    <authors>EPiServer Labs,Kunal Shetye</authors>
+    <owners>EPiServer Labs</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://www.optimizely.com/legal/end-user-licence-agreement/</licenseUrl>
+    <icon>images\icon.png</icon>
+    <projectUrl>https://github.com/episerver/welcome-dam-cms11</projectUrl>
+    <description>Integration for Welcome DAM on CMS11</description>
+    <summary>Welcome integration for Optimizely CMS 11 that lets the user pick images uploaded to Welcome</summary>
+    <releaseNotes>Initial Release</releaseNotes>
+    <readme>README.md</readme>
+    <language></language>
+    <tags>CMS, WELCOME, DAM</tags>
+    <dependencies>
+      <dependency id="EPiServer.CMS.Core" version="[11.1.0,12.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+<!--    <file src="web.config.transform" target="content\web.config.transform" />-->
+    <file src="images\icon.png" target="images\icon.png" />
+    <file src="README.md" target="README.md" />
+	<file src="bin\Debug\net48\WelcomeDAM.zip" target="Content\modules\_protected\WelcomeDAM\WelcomeDAM.zip" />
+  </files>
+</package>

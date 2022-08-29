@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>net48</TargetFramework>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
         <Configurations>Debug;Release</Configurations>
         <Platforms>AnyCPU</Platforms>
         <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -16,11 +16,13 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Content Include="ClientResources\**" Pack="false">
+        <!-- <Content Include="ClientResources\**" Pack="false">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        </Content> -->
+        <Content Include="Resources\LanguageFiles\WelcomeDAM.xml">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
-        <Content Include="lang\WelcomeDAM.xml" />
         <None Include="README.md" Pack="true" PackagePath="\" />
     </ItemGroup>
     <ItemGroup>
@@ -31,9 +33,9 @@
       <Reference Include="System.Net.Http" />
     </ItemGroup>
     <ItemGroup>
-      <PackageReference Include="EPiServer.CMS" Version="11.15.1" />
+      <PackageReference Include="EPiServer.CMS" Version="11.1.0" />
     </ItemGroup>
     <Target Name="ZipOutputPath" BeforeTargets="Build">
-        <ZipDirectory SourceDirectory="$(OutputPath)\ClientResources\WelcomeDAM" DestinationFile="$(OutputPath)\WelcomeDAM.zip" Overwrite="true" />
+        <ZipDirectory SourceDirectory="ClientResources\WelcomeDAM" DestinationFile="$(OutputPath)\WelcomeDAM.zip" Overwrite="true" />
     </Target>
 </Project>
