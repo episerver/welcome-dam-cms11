@@ -1,3 +1,10 @@
+# Release Notes
+
+## 0.0.1
+- Initial Release
+- Adds UI Descriptor that enables the "Welcome Library Picker" on Image Fields
+- Adds Content Provider for Welcome 
+
 # Screenshot
 
 ## Image Fields with Welcome Library Picker Button
@@ -5,7 +12,6 @@
 
 ## Welcome Library Picker UI
 ![Library Picker UI](/images/welcome-ui.png?raw=true "Library Picker UI")
-
 
 
 # Configuration
