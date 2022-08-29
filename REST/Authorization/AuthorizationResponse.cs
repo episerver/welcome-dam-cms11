@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Optimizely.Labs.WelcomeDAM.REST.Authorization
+namespace WelcomeDAM.REST.Authorization
 {
     public class AuthorizationResponse
     {

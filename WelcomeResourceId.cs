@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Optimizely.Labs.WelcomeDAM
+namespace WelcomeDAM
 {
     public class WelcomeResourceId
     {

@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using EPiServer.Cms.Shell.UI.Rest.Models;
+﻿using EPiServer.Cms.Shell.UI.Rest.Models;
 using EPiServer.Cms.Shell.UI.Rest.Models.Transforms;
 using EPiServer.Cms.Shell.UI.Rest.Models.Transforms.Internal;
 using EPiServer.Core;
@@ -7,9 +6,10 @@ using EPiServer.DataAbstraction;
 using EPiServer.Globalization;
 using EPiServer.Web;
 using EPiServer.Web.Routing;
-using Optimizely.Labs.WelcomeDAM.Models;
+using System.Collections.Generic;
+using WelcomeDAM.Models;
 
-namespace Optimizely.Labs.WelcomeDAM.Initialization
+namespace WelcomeDAM.Initialization
 {
     public class ThumbnailWelcomeTransform : StructureStoreModelTransform
     {

@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
+using System.Collections.Generic;
 
-namespace Optimizely.Labs.WelcomeDAM.REST.Media
+namespace WelcomeDAM.REST.Media
 {
     public class ArticleItem : BaseRestItem, IPublicWelcomeUrl
     {

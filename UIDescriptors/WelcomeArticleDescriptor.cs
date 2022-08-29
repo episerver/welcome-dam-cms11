@@ -1,7 +1,7 @@
 ﻿using EPiServer.Shell;
-using Optimizely.Labs.WelcomeDAM.Models;
+using WelcomeDAM.Models;
 
-namespace Optimizely.Labs.WelcomeDAM.UIDescriptors
+namespace WelcomeDAM.UIDescriptors
 {
     [UIDescriptorRegistration]
     public class WelcomeArticleDescriptor : UIDescriptor<WelcomeArticleFile>

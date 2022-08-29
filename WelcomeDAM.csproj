@@ -7,8 +7,6 @@
         <Platforms>AnyCPU</Platforms>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <LangVersion>7.1</LangVersion>
-        <AssemblyName>Optimizely.Labs.WelcomeDAM</AssemblyName>
-        <RootNamespace>Optimizely.Labs.WelcomeDAM</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

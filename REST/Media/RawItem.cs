@@ -1,4 +1,4 @@
-﻿namespace Optimizely.Labs.WelcomeDAM.REST.Media
+﻿namespace WelcomeDAM.REST.Media
 {
     public class RawItem : BaseRestFile
     {

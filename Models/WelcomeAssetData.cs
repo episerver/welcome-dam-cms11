@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 using EPiServer.Core;
 
-namespace Optimizely.Labs.WelcomeDAM.Models
+namespace WelcomeDAM.Models
 {
     public abstract class WelcomeAssetData : ContentBase, IContent, IContentData, ILocale
     {

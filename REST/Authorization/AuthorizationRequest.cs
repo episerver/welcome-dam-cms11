@@ -1,7 +1,8 @@
 ﻿using System.Configuration;
+using EPiServer.ServiceLocation;
 using Newtonsoft.Json;
 
-namespace Optimizely.Labs.WelcomeDAM.REST.Authorization
+namespace WelcomeDAM.REST.Authorization
 {
     public class AuthorizationRequest
     {

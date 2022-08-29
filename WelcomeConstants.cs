@@ -1,4 +1,4 @@
-﻿namespace Optimizely.Labs.WelcomeDAM
+﻿namespace WelcomeDAM
 {
     public static class WelcomeConstants
     {

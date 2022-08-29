@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using EPiServer.Core;
 using EPiServer.ServiceLocation;
 using EPiServer.Shell;
-using Optimizely.Labs.WelcomeDAM.Models;
+using WelcomeDAM.Models;
 
-namespace Optimizely.Labs.WelcomeDAM
+namespace WelcomeDAM
 {
     [ServiceConfiguration(typeof(IContentRepositoryDescriptor))]
     public class WelcomeRepositoryDescriptor : ContentRepositoryDescriptorBase

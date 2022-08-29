@@ -1,6 +1,6 @@
 ﻿using EPiServer.Shell;
 
-namespace Optimizely.Labs.WelcomeDAM.UIDescriptors
+namespace WelcomeDAM.UIDescriptors
 {
     [UIDescriptorRegistration]
     public class WelcomeVideoDescriptor : UIDescriptor<WelcomeVideoDescriptor>
