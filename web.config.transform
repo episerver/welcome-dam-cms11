@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<appSettings>
+        <add key="Welcome:Api:ClientId" value="client-id-goes-here" />
+        <add key="Welcome:Api:ClientSecret" value="client-secret-goes-here" />
+    </appSettings>
+    <episerver.shell>
+        <protectedModules>
+          <add name="WelcomeDAM" />
+        </protectedModules>
+    </episerver.shell>
+</configuration>

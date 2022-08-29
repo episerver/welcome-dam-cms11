@@ -10,3 +10,4 @@ obj/
 .idea
 .DS_Store
 modules/
+*.nupkg
