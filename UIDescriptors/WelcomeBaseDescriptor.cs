@@ -1,7 +1,7 @@
 ﻿using EPiServer.Shell;
-using WelcomeDAM.Models;
+using Optimizely.Labs.WelcomeDAM.Models;
 
-namespace WelcomeDAM.UIDescriptors
+namespace Optimizely.Labs.WelcomeDAM.UIDescriptors
 {
     [UIDescriptorRegistration]
     public class WelcomeBaseDescriptor : UIDescriptor<WelcomeAssetData>

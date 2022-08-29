@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using WelcomeDAM.REST.Media;
+using Optimizely.Labs.WelcomeDAM.REST.Media;
 
-namespace WelcomeDAM.REST
+namespace Optimizely.Labs.WelcomeDAM.REST
 {
     public interface IWelcomeClient
     {

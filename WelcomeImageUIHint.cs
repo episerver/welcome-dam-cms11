@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using EPiServer.Core;
 using EPiServer.Shell.ObjectEditing.EditorDescriptors;
-using WelcomeDAM.Models;
+using Optimizely.Labs.WelcomeDAM.Models;
 
-namespace WelcomeDAM
+namespace Optimizely.Labs.WelcomeDAM
 {
     [EditorDescriptorRegistration(TargetType = typeof(ContentReference), UIHint = "WelcomeImage")]
     public class BlockReferenceEditorDescriptor : ContentReferenceEditorDescriptor<WelcomeImageFile>

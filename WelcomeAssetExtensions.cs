@@ -3,9 +3,9 @@ using EPiServer.Core;
 using EPiServer.ServiceLocation;
 using EPiServer.Web;
 using EPiServer.Web.Routing;
-using WelcomeDAM.Models;
+using Optimizely.Labs.WelcomeDAM.Models;
 
-namespace WelcomeDAM
+namespace Optimizely.Labs.WelcomeDAM
 {
     public static class WelcomeAssetExtensions
     {

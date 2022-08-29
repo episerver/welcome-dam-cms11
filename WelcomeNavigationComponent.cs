@@ -1,7 +1,7 @@
 ﻿using EPiServer.Shell;
 using EPiServer.Shell.ViewComposition;
 
-namespace WelcomeDAM
+namespace Optimizely.Labs.WelcomeDAM
 {
     [Component]
     public class WelcomeNavigationComponent : ComponentDefinitionBase

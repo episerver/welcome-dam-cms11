@@ -1,12 +1,12 @@
-﻿using EPiServer.Framework.Cache;
-using EPiServer.Web;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using WelcomeDAM.REST.Authorization;
-using WelcomeDAM.REST.Media;
+using EPiServer.Framework.Cache;
+using EPiServer.Web;
+using Optimizely.Labs.WelcomeDAM.REST.Authorization;
+using Optimizely.Labs.WelcomeDAM.REST.Media;
 
-namespace WelcomeDAM.REST
+namespace Optimizely.Labs.WelcomeDAM.REST
 {
     public class WelcomeClient : IWelcomeClient
     {

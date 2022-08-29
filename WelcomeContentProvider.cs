@@ -11,11 +11,11 @@ using EPiServer.Security;
 using EPiServer.ServiceLocation;
 using EPiServer.Web;
 using EPiServer.Web.Routing;
-using WelcomeDAM.Models;
-using WelcomeDAM.REST;
-using WelcomeDAM.REST.Media;
+using Optimizely.Labs.WelcomeDAM.Models;
+using Optimizely.Labs.WelcomeDAM.REST;
+using Optimizely.Labs.WelcomeDAM.REST.Media;
 
-namespace WelcomeDAM
+namespace Optimizely.Labs.WelcomeDAM
 {
     public class WelcomeContentProvider : ContentProvider
     {

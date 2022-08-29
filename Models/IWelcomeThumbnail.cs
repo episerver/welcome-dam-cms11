@@ -1,4 +1,4 @@
-﻿namespace WelcomeDAM.Models
+﻿namespace Optimizely.Labs.WelcomeDAM.Models
 {
     public interface IWelcomeThumbnail
     {

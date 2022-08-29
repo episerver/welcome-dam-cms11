@@ -2,9 +2,9 @@
 using System.Linq;
 using EPiServer.Cms.Shell.UI.Rest;
 using EPiServer.Cms.Shell.UI.Rest.Models;
-using WelcomeDAM.Models;
+using Optimizely.Labs.WelcomeDAM.Models;
 
-namespace WelcomeDAM.Stores
+namespace Optimizely.Labs.WelcomeDAM.Stores
 {
     //[ServiceConfiguration(ServiceType = typeof(WelcomeContentModelStore))]
     public class WelcomeContentModelStore

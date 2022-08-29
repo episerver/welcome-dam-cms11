@@ -7,7 +7,7 @@ using EPiServer.Shell.ObjectEditing;
 using EPiServer.Shell.ObjectEditing.EditorDescriptors;
 using EPiServer.Web;
 
-namespace WelcomeDAM.Descriptors
+namespace Optimizely.Labs.WelcomeDAM.Descriptors
 {
     [EditorDescriptorRegistration(TargetType = typeof(ContentReference), UIHint = UIHint.Image, EditorDescriptorBehavior = EditorDescriptorBehavior.OverrideDefault)]
     [EditorDescriptorRegistration(TargetType = typeof(ContentReference), UIHint = WelcomeDAMUIHints.WelcomeImage, EditorDescriptorBehavior = EditorDescriptorBehavior.OverrideDefault)]

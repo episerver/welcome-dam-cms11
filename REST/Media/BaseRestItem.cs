@@ -1,8 +1,8 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
-namespace WelcomeDAM.REST.Media
+namespace Optimizely.Labs.WelcomeDAM.REST.Media
 {
     public abstract class BaseRestItem
     {

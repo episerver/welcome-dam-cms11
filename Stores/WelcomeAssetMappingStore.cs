@@ -1,11 +1,11 @@
 ﻿using System;
+using System.Web.Mvc;
 using EPiServer;
 using EPiServer.DataAbstraction;
 using EPiServer.Shell.Services.Rest;
-using System.Web.Mvc;
-using WelcomeDAM.Models;
+using Optimizely.Labs.WelcomeDAM.Models;
 
-namespace WelcomeDAM.Stores
+namespace Optimizely.Labs.WelcomeDAM.Stores
 {
     [RestStore("welcomeassetmappingstore")]
     public class WelcomeAssetMappingStore : RestControllerBase

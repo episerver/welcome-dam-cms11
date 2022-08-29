@@ -6,7 +6,7 @@ using EPiServer.ServiceLocation;
 using EPiServer.Shell;
 using EPiServer.Shell.ObjectEditing;
 
-namespace WelcomeDAM.Descriptors
+namespace Optimizely.Labs.WelcomeDAM.Descriptors
 {
     public static class EditorDescriptorExtender
     {

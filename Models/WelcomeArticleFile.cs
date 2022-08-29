@@ -3,7 +3,7 @@ using EPiServer;
 using EPiServer.Core;
 using EPiServer.DataAnnotations;
 
-namespace WelcomeDAM.Models
+namespace Optimizely.Labs.WelcomeDAM.Models
 {
     [ContentType(DisplayName = "Welcome Article", GUID = "1B46E9CF-6772-4769-97BD-2331BDD01318", AvailableInEditMode = false, GroupName = "Welcome")]
     public class WelcomeArticleFile : WelcomeAssetData

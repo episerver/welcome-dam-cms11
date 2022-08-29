@@ -1,13 +1,13 @@
-﻿using EPiServer.Cms.Shell.UI.Rest.Models.Transforms;
+﻿using System.Collections.Specialized;
+using EPiServer.Cms.Shell.UI.Rest.Models.Transforms;
 using EPiServer.Configuration;
 using EPiServer.Core;
 using EPiServer.Framework;
 using EPiServer.Framework.Initialization;
 using EPiServer.ServiceLocation;
-using System.Collections.Specialized;
-using WelcomeDAM.REST;
+using Optimizely.Labs.WelcomeDAM.REST;
 
-namespace WelcomeDAM.Initialization
+namespace Optimizely.Labs.WelcomeDAM.Initialization
 {
     [ModuleDependency(typeof(EPiServer.Web.InitializationModule))]
     public class WelcomeDAMInitialization : IInitializableModule, IConfigurableModule

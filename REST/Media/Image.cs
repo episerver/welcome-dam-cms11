@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace WelcomeDAM.REST.Media
+namespace Optimizely.Labs.WelcomeDAM.REST.Media
 {
     public class Image : BaseRestFile
     {
