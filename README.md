@@ -1,20 +1,36 @@
+# Screenshot
+
+## Image Fields with Welcome Library Picker Button
+![Library Picker Button](/images/welcome-button.png?raw=true "Library Picker Button")
+
+## Welcome Library Picker UI
+![Library Picker UI](/images/welcome-ui.png?raw=true "Library Picker UI")
+
+
+
+# Configuration
+The following settings need to be configured in the Web.config file of your project
+
 ## AppSettings
+The client-id and client-secret can be obtained by registering an OAuth 2.0 app at https://app.welcomesoftware.com/cloud/settings/apps-and-webhooks/apps/create
+Once you have the the client id and secret add them to the app-settings with the keys shown below
+
 ```
     <add key="Welcome:Api:ClientId" value="client-id-goes-here" />
     <add key="Welcome:Api:ClientSecret" value="client-secret-goes-here" />
 ```
-
-## JumbotronBlock.cshtml
+## Modules
+This should be automatically done upon installation but double-check this to make sure that the module is enabled
 ```
-@using WelcomeDAM
-@model JumbotronBlock
+<episerver.shell>
+    <protectedModules rootPath="~/EPiServer/">
+        <add name="WelcomeDAM" />
+    </protectedModules>
+</episerver.shell>
+```
+## RazorView Helpers
 
-<div style="background-image:url('@Model.Image.GetWelcomeUrl()')">
-    <div class="jumbotron-dimmer"></div>
-    <div class="jumbotron-inner">
-        <h1 class="display-5 mb-4" @Html.EditAttributes(m => m.Heading)>@Model.Heading</h1>
-        <p class="lead mb-5" @Html.EditAttributes(m=>m.SubHeading)>@Model.SubHeading</p>
-        <a class="btn btn-primary btn-lg" href="@Model.ButtonLink" id="jumboLink" @Html.EditAttributes(m => m.ButtonText)>@Model.ButtonText</a>
-    </div>
-</div>
+The following helpers can be used to get the url to welcome assets in the view
+```
+@Model.Image.GetWelcomeUrl()
 ```
