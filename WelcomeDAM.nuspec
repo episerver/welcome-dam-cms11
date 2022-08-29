@@ -4,7 +4,7 @@
     <id>Optimizely.Labs.WelcomeDAM</id>
     <version>0.0.1</version>
     <title>Optimizely.Labs.WelcomeDAM</title>
-    <authors>EPiServer Labs,Kunal Shetye</authors>
+    <authors>EPiServer Labs</authors>
     <owners>EPiServer Labs</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>https://www.optimizely.com/legal/end-user-licence-agreement/</licenseUrl>
