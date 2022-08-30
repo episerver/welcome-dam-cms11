@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>Optimizely.Labs.CMS11.WelcomeDAM</id>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <title>Optimizely.Labs.CMS11.WelcomeDAM</title>
     <authors>EPiServer Labs</authors>
     <owners>EPiServer Labs</owners>
@@ -23,6 +23,6 @@
   <files>
     <file src="images\icon.png" target="images\icon.png" />
     <file src="README.md" target="README.md" />
-	<file src="bin\Debug\net48\WelcomeDAM.zip" target="Content\modules\_protected\WelcomeDAM\WelcomeDAM.zip" />
+	<file src="bin\Debug\net461\WelcomeDAM.zip" target="Content\modules\_protected\WelcomeDAM\WelcomeDAM.zip" />
   </files>
 </package>

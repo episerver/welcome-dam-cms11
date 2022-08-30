@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net48</TargetFramework>
+        <TargetFramework>net461</TargetFramework>
         <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
         <Configurations>Debug;Release</Configurations>
         <Platforms>AnyCPU</Platforms>
