@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>Optimizely.Labs.WelcomeDAM</id>
+    <id>Optimizely.Labs.CMS11.WelcomeDAM</id>
     <version>0.0.1</version>
-    <title>Optimizely.Labs.WelcomeDAM</title>
+    <title>Optimizely.Labs.CMS11.WelcomeDAM</title>
     <authors>EPiServer Labs</authors>
     <owners>EPiServer Labs</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -11,7 +11,7 @@
     <icon>images\icon.png</icon>
     <projectUrl>https://github.com/episerver/welcome-dam-cms11</projectUrl>
     <description>Integration for Welcome DAM on CMS11</description>
-    <summary>Welcome integration for Optimizely CMS 11 that lets the user pick images uploaded to Welcome</summary>
+    <summary>Welcome integration for Optimizely CMS 11 that lets the user select images uploaded to Welcome Library</summary>
     <releaseNotes>Initial Release</releaseNotes>
     <readme>README.md</readme>
     <language></language>
