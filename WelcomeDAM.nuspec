@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>Optimizely.Labs.CMS11.WelcomeDAM</id>
-    <version>0.0.2</version>
-    <title>Optimizely.Labs.CMS11.WelcomeDAM</title>
-    <authors>EPiServer Labs</authors>
-    <owners>EPiServer Labs</owners>
+    <id>Research.CMS11.WelcomeDAM</id>
+    <version>0.0.1</version>
+    <title>Research.CMS11.WelcomeDAM</title>
+    <authors>Optimizely Presaless</authors>
+    <owners>Optimizely Presales</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>https://www.optimizely.com/legal/end-user-licence-agreement/</licenseUrl>
     <icon>images\icon.png</icon>
