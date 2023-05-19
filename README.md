@@ -1,3 +1,7 @@
+# Please Note
+
+This connector has been superceeded by the official connector from Optimizely. See here for install instructions: https://docs.developers.optimizely.com/content-management-system/v11.0.0-cms/docs/install-the-optimizely-digital-asset-management-asset-picker
+
 # Release Notes
 
 ## 0.0.1
